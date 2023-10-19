@@ -4,7 +4,7 @@ export class Product {
   description: string;
   shortDesc: string;
   stock: number;
-  categoryID: number;
   price: number;
+  oldPrice: number;
   image: string[];
 }
