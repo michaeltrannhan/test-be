@@ -12,6 +12,7 @@ export class ProductService {
     return this.prisma.product.create({
       data: {
         ...createProductDto,
+        image: ['https://placeimg.com/200/300/laptops'],
       },
     });
   }
